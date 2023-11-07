@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.topnav{
+    height: 130px;
+    background-color:rgba(240, 223, 223, 0.247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topnav a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: normal;
+    text-align: right;
+    text-shadow: 5px;
+    color: black;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 650;
+}
+.topnav a:hover{
+    text-decoration: underline;
+}
+.logo{
+    height: 100px;
+}
+  
+  @keyframes good{
+    0%{background-image: url('./consulting\ img.jpg');}
+    50%{background-image: url('./consultingimg2.jpg');}
+    100%{background-image: url('consulting\ img\ 3.jpg');}
+  }
+  .seconddiv{
+    background-image: url('consulting\ img.jpg');
+    height: 120vh;
+    background-position: center;
+    animation: good 5s infinite;
+  }
+  .extra{
+    height: 500px;
+    background-color: rgb(11, 11, 80);
+    width: 500px;
+    border-radius: 0 50% 50% 0 ;
+    margin-top: 100px;
+    position: absolute;
+    animation: good2 2s ease;
+  }
+
+  @keyframes good2{
+    from {left: -90%;}
+    to {left: 0;}
+  }
+  .extra h1{
+    color: white;
+    font-family: avalon;
+    font-weight: bolder;
+    line-height: 42px;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 100px;
+    text-align: justify;
+    padding: 20px;
+  }
+  .extra p{
+    color: white;
+    padding: 20px;
+  }
+  .extra a{
+color: white;
+font-family: avalon;
+font-size: 14px;
+text-decoration: none;
+
+
+  }
+  .extra button{
+    background-color: green;
+    height: 80px;
+    border-radius: 10rem;
+    
+    width: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+  }
+  .extra button:hover{
+    background-color: black;
+  }
+  /* .circle{
+    display: inline-flex;
+    border-top: 150px solid red;
+    
+    border-right: 150px solid  blue;
+    
+    border-left: 150px solid yellow; 
+    border-bottom: 150px solid green;
+
+border-radius: 400px;
+margin: 20px;
+transition: all 5s ease;
+animation: circlee 3s ease-in-out;
+  }
+  .circle:hover{
+    transform: rotate(360deg);
+  } */
+  .image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+}
+
+  .jj{
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+  animation: rotate3 2.0s linear;
+  }
+
+@keyframes rotate3 {
+    0%{
+        transform: rotate(90deg);
+        display: none;
+        opacity: -0.1;
+    
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+        
+        transition: all 9s ease;
+    }
+  }
+  
+.three{
+  display: flex;  
+}
+
+  .image img{
+    height: 550px;
+    width: 550px;
+    border-radius: 100%;
+    transition: all 5s ease;
+    animation: rotate3 2.0s linear;
+  }
+@keyframes rotate3 {
+    0%{
+        transform: (90deg);
+        display: none;
+        opacity: -0.1;
+    
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+        
+        transition: all 9s ease;
+    }
+    
+}
+  .text{
+    /* color: aqua; */
+    padding: 6rem;
+  }
+  .rdcont{
+height: 60vh;
+width: 100%;
+background-color: white;
+text-align: center;
+margin-bottom: 20px;
+
+
+  }
+  .rdcont p{
+    letter-spacing: 5px;
+    font-size: 26px;
+    padding-top: 119px;
+    font-weight: 100;
+    margin-top: 1px;
+    padding: 2rem;
+
+  }
+  .rdcont h1{
+  
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+    color: rgb(19, 19, 77);
+    font: xx-large;
+   
+
+  }
+  .rdcont p2{
+    
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 2rem;
+
+  }
+  .rdcont span{
+    color: green;
+    font-weight: bolder;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("background\ image\ div\ 3.PNG");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text a{
+    color: white;
+    font-family: avalon;
+    font-size: 14px;
+    text-decoration: none;
+    }
+.text .bb{
+    background-color: green;
+    height: 80px;
+    border-radius: 10rem;
+    
+    width: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+  }
+  .text .bb:hover{
+    background-color: black;
+  }
+  .text{
+    align-items: center;
+  }
+  .text h1{
+    Color:rgb(23, 48, 88);
+    /* text-shadow: 0 0 2px black; */
+    font-family: avalon;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 50px;
+    word-spacing: normal;
+  }
+
+.blue{
+  background-color: rgb(6, 6, 53);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.st .img{
+ margin-top: 100px;
+ background-color: beige;
+}
+.st{
+ 
+  text-align:justify;
+ margin-top: 30px;
+ 
+}
+.ndblue{
+  background-color: rgba(0, 0, 128, 0.521);
+  width: 500px;
+}
+.st a{
+  color: white;
+  font-family: avalon;
+  font-size: 14px;
+  text-decoration: none;
+  
+  
+    }
+    .st button{
+      background-color: green;
+      height: 80px;
+      border-radius: 10rem;
+      
+      width: 200px;
+      margin: 30px;
+      margin-bottom: 10px;
+    }
+    .st button:hover{
+      background-color: black;
+    }
+    .ndblue img{
+      margin-left: 200px;
+  
+    }
+    .ndblue h2{
+      margin-left: 100px;
+    }
+    .ndblue P{
+      margin-left: 80px;
+    }
+    .ndblue a{
+      color: white;
+      font-family: avalon;
+      font-size: 14px;
+      text-decoration: none;
+      
+      
+        }
+        .ndblue button{
+          background-color: green;
+          height: 80px;
+          border-radius: 10rem;
+          
+          width: 200px;
+          margin: 30px;
+          margin-bottom: 10px;
+          margin-left: 100px;
+        }
+        .ndblue button:hover{
+          background-color: black;
+           }
+    .rdblue a{
+      color: white;
+      font-family: avalon;
+      font-size: 14px;
+      text-decoration: none;
+      
+      
+        }
+        .rdblue button{
+          background-color: green;
+          height: 80px;
+          border-radius: 10rem;
+          
+          width: 200px;
+          margin: 30px;
+          margin-bottom: 10px;
+          margin-left: 100px;
+        }
+        .rdblue button:hover{
+          background-color: black;
+        }
+        .rdblue img{
+          margin-left: 200px;
+        }
+
+        .container{
+           width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: right;
+    
+    background-color: whitesmoke;
+          }
+          .block{
+            display: block;
+            margin-left: 50px;
+            margin-top: 100px;
+          }
+       .formm input{
+  width: 85%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: aqua;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+     .last{
+      width: 100%;
+    height: 110vh;
+    background-color: rgb(15, 15, 75);
+    display: flex;
+     }   
+     .last img{
+      border-radius: 50%;
+     }
+     .last p{
+      color: aliceblue;
+      margin-left: 50px;
+     }
+     .last h1{
+      color: aliceblue;
+     }
+     .blok{
+      display: block;
+     }
+     .twoway{
+      display: flex;
+      margin-top: 70px;
+     }
+     .blok hr{
+      width: 200px;
+     }
+     .blok h5{
+margin-top: 40px;
+color: aliceblue;
+     }
+     .navvvv{
+      display: block;
+      color: aliceblue;
+      margin-top: 80px;
+     }
